@@ -1,0 +1,73 @@
+.border{
+border: 1px solid red;
+}
+section.hero{
+    margin-top: 2rem;
+}
+section.hero .left{
+    flex-grow: 1;
+}
+section.hero .avatar{
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid darkorange  ;
+    padding: 1px;
+    margin-right: 16px;
+    box-shadow: 2px 2px 40px rgba(128, 128, 128, 0.357) inset;
+}
+section.hero h1.title{
+    font-size: 2.60rem;
+    line-height: 3.3rem;
+      margin: 24px 0;
+      color: var(--title);
+}
+section.hero p.subTitle{
+    color: var(--subtite);
+    font-size: 0.9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+section.hero .allIcons{
+    font-size: 1.2rem;
+    gap: 1.5rem;
+    align-items: center; 
+}
+section.hero .allIcons .icon:hover{
+    font-size: 1.4rem;
+    transition: .3s;
+    cursor: pointer;
+    color: var(--iconHover);
+}
+
+@media (max-width: 600px) {
+  section.hero .right {
+    display: none;
+  }
+
+  section.hero h1.title {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  section.hero p.subTitle {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    text-align: center;
+  }
+
+  section.hero h2 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  section.hero .allIcons {
+    justify-content: center;
+  }
+
+  section.hero .parentAvatar {
+    justify-content: center;
+    display: flex;
+  }
+}
