@@ -22,8 +22,8 @@ const myProjects = [
     projectTitle: "Protofolio",
     category: "React",
     imgPath: "photo_2025-05-22_15-33-52.jpg",
-    liveLink: "https://marwanalshehabi.github.io/Online_Store-frontend/",
-    githubLink: "https://github.com/MarwanALShehabi/Online_Store-frontend",
+    liveLink: "https://marwanalshehabi.github.io/protofolioo/",
+    githubLink: "https://github.com/MarwanALShehabi/protofolioo",
   },
   {
     projectTitle: "Todo-List",
