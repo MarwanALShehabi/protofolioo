@@ -25,7 +25,7 @@ export default function Hero() {
       >
         <div className="parentAvatar">
           <motion.img
-            src="/public/11zon_cropped.png"
+            src="11zon_cropped.png"
             className="avatar"
             alt="avatar"
             initial={{ scale: 0 }}

@@ -28,7 +28,7 @@ const myProjects = [
   {
     projectTitle: "Todo-List",
     category: "JavaScript",
-    imgPath: "/public/photo_2025-05-22_14-02-45.jpg",
+    imgPath: "photo_2025-05-22_14-02-45.jpg",
     liveLink: "https://marwanalshehabi.github.io/todo-list/",
     githubLink: "https://github.com/MarwanALShehabi/todo-list",
   },  
