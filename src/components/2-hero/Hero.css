@@ -1,73 +1,123 @@
-.border{
-border: 1px solid red;
-}
-section.hero{
-    margin-top: 2rem;
-}
-section.hero .left{
-    flex-grow: 1;
-}
-section.hero .avatar{
-    width: 150px;
-    border-radius: 50%;
-    border: 1px solid darkorange  ;
-    padding: 1px;
-    margin-right: 16px;
-    box-shadow: 2px 2px 40px rgba(128, 128, 128, 0.357) inset;
-}
-section.hero h1.title{
-    font-size: 2.60rem;
-    line-height: 3.3rem;
-      margin: 24px 0;
-      color: var(--title);
-}
-section.hero p.subTitle{
-    color: var(--subtite);
-    font-size: 0.9rem;
-    line-height: 1.65rem;
-    margin-bottom: 32px;
-    font-weight: bold;
-}
-section.hero .allIcons{
-    font-size: 1.2rem;
-    gap: 1.5rem;
-    align-items: center; 
-}
-section.hero .allIcons .icon:hover{
-    font-size: 1.4rem;
-    transition: .3s;
-    cursor: pointer;
-    color: var(--iconHover);
+/* Borders for debugging */
+.border {
+  border: 1px solid red;
 }
 
-@media (max-width: 600px) {
+/* Hero Section */
+section.hero {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* مودرن gradient background */
+  border-radius: 30px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+/* Left side content */
+section.hero .left {
+  flex-grow: 1;
+  max-width: 600px;
+}
+
+/* Avatar */
+section.hero .avatar {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #f39c12;
+  padding: 2px;
+  margin-right: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3), 2px 2px 40px rgba(128,128,128,0.2) inset;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section.hero .avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5), 2px 2px 50px rgba(128,128,128,0.3) inset;
+}
+
+/* Title */
+section.hero h1.title {
+  font-size: 2.6rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* SubTitle */
+section.hero p.subTitle {
+  color: rgba(255,255,255,0.85);
+  font-size: 0.95rem;
+  line-height: 1.65rem;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+/* Social icons */
+section.hero .allIcons {
+  display: flex;
+  gap: 1.8rem;
+  align-items: center; 
+}
+
+section.hero .allIcons .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  color: #5dbcfc;
+}
+
+section.hero .allIcons .icon:hover {
+  transform: scale(1.2);
+  background: rgba(93,188,252,0.2);
+  cursor: pointer;
+  color: #5dbcfc;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  section.hero {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 20px;
+  }
+
   section.hero .right {
     display: none;
   }
 
   section.hero h1.title {
-    font-size: 1.4rem;
-    line-height: 2rem;
-    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
   }
 
   section.hero p.subTitle {
-    font-size: 0.8rem;
-    line-height: 1.4rem;
-    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
   }
 
   section.hero h2 {
-    text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   section.hero .allIcons {
     justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
   }
 
   section.hero .parentAvatar {
     justify-content: center;
     display: flex;
+    margin-bottom: 15px;
   }
 }
