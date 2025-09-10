@@ -33,6 +33,13 @@ const myProjects = [
     githubLink: "https://github.com/MarwanALShehabi/Online_Store-frontend",
   },
   {
+    projectTitle: "Movie Base",
+    category: "React",
+    imgPath: "photo_2025-09-10_11-59-06.jpg",
+    liveLink: "https://marwanalshehabi.github.io/Movie_Base/",
+    githubLink: "https://github.com/MarwanALShehabi/Movie_Base",
+  },
+  {
     projectTitle: "Todo-List",
     category: "JavaScript",
     imgPath: "photo_2025-05-22_14-02-45.jpg",
