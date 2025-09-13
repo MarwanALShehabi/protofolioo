@@ -26,6 +26,13 @@ const myProjects = [
     githubLink: "https://github.com/MarwanALShehabi/Form-Builder",
   },
   {
+    projectTitle: "Map-App",
+    category: "Next.js",
+    imgPath: "photo_2025-09-13_12-12-03.jpg",
+    liveLink: "",
+    githubLink: "https://github.com/MarwanALShehabi/map",
+  },
+  {
     projectTitle: "Online Store",
     category: "React",
     imgPath: "photo_2025-05-22_13-40-32.jpg",
@@ -39,13 +46,13 @@ const myProjects = [
     liveLink: "https://marwanalshehabi.github.io/Movie_Base/",
     githubLink: "https://github.com/MarwanALShehabi/Movie_Base",
   },
-  {
-    projectTitle: "Todo-List",
-    category: "JavaScript",
-    imgPath: "photo_2025-05-22_14-02-45.jpg",
-    liveLink: "https://marwanalshehabi.github.io/todo-list/",
-    githubLink: "https://github.com/MarwanALShehabi/todo-list",
-  },
+  // {
+  //   projectTitle: "Todo-List",
+  //   category: "JavaScript",
+  //   imgPath: "photo_2025-05-22_14-02-45.jpg",
+  //   liveLink: "https://marwanalshehabi.github.io/todo-list/",
+  //   githubLink: "https://github.com/MarwanALShehabi/todo-list",
+  // },
 ];
 
 export default function Main() {
